@@ -6,13 +6,19 @@ h1 {
     text-align: center;
     color: white;
 }
+p {
+    color: white;
+}
 form {
     width: 50%;
     margin: auto;
     background-color: ;
 }
+label {
+    color: white;
+}
 fieldset {
-    background-color: rgb(148, 146, 146);
+    background-color: rgb(13, 12, 12);
     padding: 20px 80px 50px 80px;
 }
 legend {
@@ -37,7 +43,14 @@ input#tel {
     margin-left: 3px;
     width: 250px;
 }
+input#password {
+    margin-left: 38px;
+    width: 250px;
+}
 input#submit {
+    color: white;
+    background-color: black;
     padding: 6px;
     width: 100px;
+    border: 2px solid white;
 }
